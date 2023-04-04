@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NASA Picture of the Day</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>NASA Picture of the Day</h1>
+        <form id="search-form">
+            <label for="search-input">Select a date:</label>
+            <input type="date" id="search-input" required>
+            <button type="submit">Search</button>
+        </form>
+    </header>
+    <main>
+        <div id="current-image-container"></div>
+        <ul id="search-history"></ul>
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>
